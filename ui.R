@@ -13,27 +13,27 @@ dashboardPage(skin = "green",
         ,status = "warning"
         ,solidHeader = TRUE
         ,collapsible = TRUE
-        ,collapsed = FALSE
+        ,collapsed = TRUE
         ,width = 4
         # ,background = "green"
         
         ,numericInput(inputId = "id.valor_A", label = "Gasto", value = 0, width = 80)
         ,textInput(inputId = "id.descricao_A", label = "Descrição", width = 200), br()
-        ,actionButton(inputId = "id.botao_A", label = "HUMBERTO")
+        ,actionButton(inputId = "id.botao_A", label = "Ok")
         )
     
     ,box(title = "MÁRCIA"
         ,status = "primary"
         ,solidHeader = TRUE
         ,collapsible = TRUE
-        ,collapsed = FALSE
+        ,collapsed = TRUE
         ,width = 4
         # ,background = "green"
              
              
         ,numericInput(inputId = "id.valor_B", label = "Gasto", value = 0, width = 80)
         ,textInput(inputId = "id.descricao_B", label = "Descrição", width = 200), br()
-        ,actionButton(inputId = "id.botao_B", label = "MÁRCIA")
+        ,actionButton(inputId = "id.botao_B", label = "Ok")
     )
     )
   )
